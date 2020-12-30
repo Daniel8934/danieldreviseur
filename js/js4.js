@@ -1,6 +1,6 @@
 // Code JS pour l'effet typewritter sur la page index
 var i = 0;
-var txt = 'Des mots plein la tête !';
+var txt = 'Je suis en congé d\'études. À bientôt!';
 var speed = 50;
 
 function typeWriter() {
