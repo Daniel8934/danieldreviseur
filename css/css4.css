@@ -468,10 +468,15 @@ tr:nth-child(even) {
 }
 /* Fin du code CSS pour la page temoignages.html*/
 
-/* Code pour déterminer la largeur du formulaire de la page contact, sur grand écran*/
-/* On screens that are 600px or more. Ce code diminue la largeur du formulaire */
+/* Code pour déterminer la largeur du tableau de la page services.html et du formulaire de la page contact.html, sur grand écran*/
+/* On screens that are 600px or more. Ce code diminue la largeur du tabformulaire */
 @media screen and (min-width: 600px) {
+	
   #formulaire {
     width: 700px;
+  }
+  
+  #tableau {
+	width: 700px; 
   }
 }
