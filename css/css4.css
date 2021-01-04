@@ -240,7 +240,6 @@ h2 {
 
 #titreForm{
 	 font-family: 'Montserrat Alternates', sans-serif;
-	 margin-left: 80px;
 	 padding-top: 100px;
 }
 /* input[type=text], select, textarea {
@@ -468,3 +467,11 @@ tr:nth-child(even) {
   }
 }
 /* Fin du code CSS pour la page temoignages.html*/
+
+/* Code pour déterminer la largeur du formulaire de la page contact, sur grand écran*/
+/* On screens that are 600px or more. Ce code diminue la largeur du formulaire */
+@media screen and (min-width: 600px) {
+  #formulaire {
+    width: 700px;
+  }
+}
