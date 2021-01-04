@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Daniel-Dulude-réviseur-et-rédacteur</title>
+    <title>Daniel Dulude réviseur et rédacteur</title>
     <meta name="description" content="site Web de Daniel Dulude réviseur et rédacteur">
     <meta name="keywords" content="révision, rédaction, réviseur, rédacteur, correction, textes, texte, français, Web, web, sites Web, site Web, documents, document">
     <meta name="author" content="Daniel Dulude">
@@ -20,7 +20,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet"> 	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
   </head>
 
   <body>
@@ -36,6 +37,7 @@
            <li><a class="nav-link" href="index.html">Accueil</a></li>
             <li><a class="nav-link" href="a-propos.html">À propos</a></li>
             <li><a class="nav-link" href="services.html">Services</a></li>
+			<li><a class="nav-link" href="temoignages.html">Témoignages</a></li>
             <li><a class="nav-link active-link" href="contact.html">Contact</a></li>
           </ul>
         </nav>
@@ -43,11 +45,54 @@
     </div>
 
 <main>
-<h1 id="titreForm">Mon adresse de courrier électronique </h1>
+<h1 id="titreForm">Contact</h1>
 <div id="adresse-courriel" class="container2 w3-panel w3-leftbar">
  <address>
 Réviseurs Canada : <a href="mailto:daniel.dulude@reviseurs.ca">daniel.dulude@reviseurs.ca</a>
-</address> 
+</address>
+<a href="tel:5148948934">Appelez le (514)894-8934</a>
+<form name="contact" method="POST" data-netlify="true" action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+<h2 class="w3-center">Contactez-moi</h2>
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="Prénom">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="last" type="text" placeholder="Nom de famille">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="text" placeholder="Courriel">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="phone" type="text" placeholder="Téléphone">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+    </div>
+</div>
+
+<button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
+
+</form>
+
 </div>
 </main>
 
