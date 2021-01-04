@@ -115,9 +115,6 @@ details a {
 /* Fin du code pour la page services/
 
 /* Code page propos.html */
-#paragraphe {
-	margin-left: 5px;
-}
 .container0 {
   border-radius: 5px;
   background-color: #FFFFFF;
@@ -128,7 +125,6 @@ details a {
  .def {
   font-family: 'Montserrat Alternates', sans-serif;
   letter-spacing: 5px;
-  margin-left: 17px;
 }
 .titre{
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -147,13 +143,6 @@ details a {
 h2 {
     color: #000000;
 }
-
-.justify {
-    color: #000000;
-    text-align: justify;
-    padding-top: 0;
-}
-
 
 #source-cit {
     padding: 0px 0px 65px
@@ -468,7 +457,7 @@ tr:nth-child(even) {
 }
 /* Fin du code CSS pour la page temoignages.html*/
 
-/* Code pour déterminer la largeur du tableau de la page services.html et du formulaire de la page contact.html, sur grand écran*/
+/* Largeur, sur grand écran, du tableau de la page services.html, du tableau de la page temoignages.html et du formulaire de la page contact.html/
 /* On screens that are 600px or more. Ce code diminue la largeur du tabformulaire */
 @media screen and (min-width: 600px) {
 	
@@ -479,4 +468,10 @@ tr:nth-child(even) {
   #tableau {
 	width: 700px; 
   }
+  
+  #temoignages {
+	width: 700px;  
+  }
 }
+
+
