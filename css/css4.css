@@ -320,7 +320,7 @@ display: block;
 height:  75px;
 }
 footer {
-	background-color : #000000;
+	background-color : #303030;
 	color : #FFFFFF;
 	font-family: "PT Sans", sans-serif, Arial, Helvetica, sans-serif; /* Daniel Dulude à ajouté "PT Sans", sans-serif */
 	font-size: 1.2rem;
@@ -420,6 +420,10 @@ tr:nth-child(even) {
 }
 
 /* Code CSS pour la page temoignages.html */
+
+#padd-top{
+	padding-top: 80px;
+}
 .container {
   border: 2px solid #ccc;
   background-color: #eee;
