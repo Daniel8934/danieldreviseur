@@ -198,7 +198,7 @@ h2 {
 }
 
 
-/* textes pages d'accueil */
+/* textes page d'accueil */
 
 #demo {
     color: #000000;
@@ -206,8 +206,6 @@ h2 {
 	padding-top: 50px;
     text-align: center;
 }
-
-
 
 /* Typical Media Query Breakpoints */
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
