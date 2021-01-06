@@ -11,18 +11,6 @@ function typeWriter() {
     }
 }
 
-// Code JS pour l'effet typewritter sur la page index anglaise
-var i = 0;
-var txt = 'I am on study leave. See you soon!';
-var speed = 50;
-
-function typeWriter2() {
-    if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-}
 
 // Code pour le lien vers la page contact.html
 function contact() {
