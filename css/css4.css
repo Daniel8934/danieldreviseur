@@ -198,9 +198,15 @@ h2 {
 }
 
 
-/* textes page d'accueil */
+/* textes pages d'accueil françaises et anglaises */
 
 #demo {
+    color: #000000;
+    font-size: 3.9vw;
+	padding-top: 50px;
+    text-align: center;
+}
+#demo2 {
     color: #000000;
     font-size: 3.9vw;
 	padding-top: 50px;
