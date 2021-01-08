@@ -152,21 +152,23 @@ h2 {
 /*css hero-image */
 
 #nomPageTitre{
+	color: #E8D630;
 	font-family: 'Montserrat Alternates', sans-serif;;
 	font-size: 2rem;
 }
 #metierPageTitre{
+	color: #E8D630;
 	font-family: 'Montserrat Alternates', sans-serif;;
 	font-size: 1.5rem;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pexels-pixabay-278887.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Daniel-Dulude.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	padding-top: 800px;
+	padding-top: 700px;
     position: relative;
 }
  
@@ -198,7 +200,7 @@ h2 {
 }
 
 
-/* textes pages d'accueil françaises et anglaises */
+/* Code pages d'accueil françaises et anglaises */
 
 #demo {
     color: #FFFFFF;
@@ -322,8 +324,8 @@ display: block;
 height:  75px;
 }
 footer {
-	background-color : #303030;
-	color : #FFFFFF;
+	background-color : #000000;
+	color : #E8D630;
 	font-family: "PT Sans", sans-serif, Arial, Helvetica, sans-serif; /* Daniel Dulude à ajouté "PT Sans", sans-serif */
 	font-size: 1.2rem;
     font-weight: 600; /* Ajouté par Daniel Dulude afin d'augmenter le contraste du logo vs fond */
