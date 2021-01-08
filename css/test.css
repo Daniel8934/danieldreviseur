@@ -66,7 +66,8 @@ body {
 hover sur le logo supprimé par Daniel Dulude 
 */ 
 #nav-lang {
-  background-color: #FFFFFF;
+  background-color: #303030;
+  color: #FFFFFF;
   cursor: pointer;
   font-family: "PT Sans", sans-serif, Arial, Helvetica, sans-serif; /* Daniel Dulude à ajouté "PT Sans", sans-serif */
   font-size: 1.4rem;
