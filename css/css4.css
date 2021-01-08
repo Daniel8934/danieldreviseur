@@ -162,14 +162,14 @@ h2 {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pexels-pixabay-278887.jpg");
-    height: 50%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	margin-top: 65px;
-	padding-top: 300px;
+	padding-top: 800px;
     position: relative;
 }
+ 
 
 .hero-text {
     text-align: center;
@@ -201,15 +201,13 @@ h2 {
 /* textes pages d'accueil françaises et anglaises */
 
 #demo {
-    color: #000000;
+    color: #FFFFFF;
     font-size: 3.9vw;
-	padding-top: 50px;
     text-align: center;
 }
 #demo2 {
-    color: #000000;
+    color: #FFFFFF;
     font-size: 3.9vw;
-	padding-top: 50px;
     text-align: center;
 }
 
