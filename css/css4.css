@@ -10,7 +10,7 @@
 
 html,
 body {
-	background-color:#FFFFFF;
+	background-color: #000000;
 	font-family: "PT Sans", sans-serif;
 	height: 100%;
     margin: 0;
@@ -117,7 +117,7 @@ details a {
 /* Code page propos.html */
 .container0 {
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: #000000;
   margin-top: 80px;
   padding: 20px;
 }
@@ -126,7 +126,11 @@ details a {
   font-family: 'Montserrat Alternates', sans-serif;
   letter-spacing: 5px;
 }
+#texte-blanc {
+	color: #FFFFFF;
+}
 .titre{
+	color: #FFFFFF;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
   
@@ -228,6 +232,8 @@ h2 {
 
 /* Code pour la page contact*/
 #adresse-courriel{
+	background-color: #000000;
+	color: #FFFFFF;
 	margin-left: 5px;
 }
 
@@ -325,7 +331,7 @@ height:  75px;
 }
 footer {
 	background-color : #000000;
-	color : #E8D630;
+	color : #FFFFFF;
 	font-family: "PT Sans", sans-serif, Arial, Helvetica, sans-serif; /* Daniel Dulude à ajouté "PT Sans", sans-serif */
 	font-size: 1.2rem;
     font-weight: 600; /* Ajouté par Daniel Dulude afin d'augmenter le contraste du logo vs fond */
@@ -478,6 +484,8 @@ tr:nth-child(even) {
   }
   
   #temoignages {
+	background-color: #000000;
+	color: #FFFFFF;
 	width: 700px;  
   }
 }

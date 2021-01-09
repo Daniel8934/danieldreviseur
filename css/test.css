@@ -68,7 +68,7 @@ hover sur le logo supprimé par Daniel Dulude
 #nav-lang {
   background-color: #000000;
   border: none;
-  color: #E8D630;
+  color: #FFFFFF;
   cursor: pointer;
   font-family: "PT Sans", sans-serif, Arial, Helvetica, sans-serif; /* Daniel Dulude à ajouté "PT Sans", sans-serif */
   font-size: 1.4rem;
@@ -97,7 +97,7 @@ hover sur le logo supprimé par Daniel Dulude
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  color: #E8D630;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.3rem; /* DD de 1.2 à 1.3rem */
@@ -129,8 +129,9 @@ hover sur le logo supprimé par Daniel Dulude
   }
 
   #nav-menu-button {
+	  color: #FFFFFF;
     padding: 1rem;
-    background-color: #f1f1f1;
+    background-color: #000000;
     cursor: pointer;
   }
 

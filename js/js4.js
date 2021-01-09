@@ -1,3 +1,5 @@
+
+/*
 // Code JS pour l'effet typewritter sur la page index française
 var i = 0;
 var txt = 'Je suis en congé d\'études. À bientôt!';
@@ -22,6 +24,7 @@ function typeWriter2() {
         setTimeout(typeWriter2, speed);
     }
 }
+*/
 
 
 // Code pour le lien vers la page contact.html
