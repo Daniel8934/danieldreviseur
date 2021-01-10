@@ -73,6 +73,7 @@ hover sur le logo supprimé par Daniel Dulude
   font-family: "PT Sans", sans-serif, Arial, Helvetica, sans-serif; /* Daniel Dulude à ajouté "PT Sans", sans-serif */
   font-size: 1.4rem;
   font-weight: 600; /* Ajouté par Daniel Dulude afin d'augmenter le contraste */
+  margin-left: 80px;
   padding: 0;
 }
 
