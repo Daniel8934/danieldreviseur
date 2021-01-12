@@ -123,10 +123,14 @@ details a {
 }
 
  .def {
+  color: #FFFFFF;
   font-family: 'Montserrat Alternates', sans-serif;
   letter-spacing: 5px;
 }
 #texte-blanc {
+	color: #FFFFFF;
+}
+#txt-blanc {
 	color: #FFFFFF;
 }
 .titre{
