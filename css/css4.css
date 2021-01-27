@@ -108,7 +108,11 @@ details a {
 }
 
 /* Code pour la page services.html */
+.serv{
+	color: #FFFFFF;
+}
 #tableau{
+	color: #000000;
 	margin-top: 80px;
 }
 
@@ -118,8 +122,8 @@ details a {
 .container0 {
   border-radius: 5px;
   background-color: #000000;
-  margin-top: 0px;
-  padding: 5px;
+  margin-top: 80px;
+  padding: 10px;
 }
 
  .def {
@@ -437,6 +441,7 @@ tr:nth-child(even) {
 /* Code CSS pour la page temoignages.html */
 
 #padd-top{
+	color: #FFFFFF;
 	padding-top: 80px;
 }
 .container {
