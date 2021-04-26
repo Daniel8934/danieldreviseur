@@ -1,0 +1,155 @@
+:root {
+    --mainFont: 'Krub', sans-serif;
+    --white: #FFFFFF;
+    --primary: #FFC107;
+    --secondary: hsl(180, 38%, 73%);
+    --gray: #626262;
+    --dark: #212121;
+    --orange: #F87217;
+    #626262
+}
+
+
+/* Paul irish essentiel code */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.main-container {
+    display: grid;
+    font-family: var(--mainFont);
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    /* rows / columns */
+    grid: 100px 300px auto 300px 400px/ repeat(5, 1fr);
+    grid-template-areas: "header header header header header" "nav nav nav nav nav" "text text text text main" "text text text text main" "footer footer footer footer footer";
+    /* on peut créer un span to the top and to the bottom avec ce code, ce qui était difficile à faire, avant */
+    /* grid-template-areas: "header header header sidebar" "main main main main" "footer footer footer sidebar" */
+    grid-gap: 0rem;
+    width: 100%;
+}
+
+
+/* grid-area */
+
+.main {
+    background-color: none;
+    grid-area: main;
+}
+
+.footer {
+    color: var(--white);
+    font-size: 1rem;
+    grid-area: footer;
+}
+
+footer p {
+    display: grid;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bolder;
+    justify-content: center;
+    margin: 0;
+}
+
+.header {
+    grid-area: header;
+}
+
+.header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: none;
+}
+
+.text {
+    color: var(--white);
+    grid-area: text;
+    align-self: center;
+}
+
+.main-nav {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
+
+.main-nav ul {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.main-nav ul li {
+    justify-self: center;
+}
+
+.main-nav ul li a {
+    color: var(--dark);
+    font-family: var(--mainFont);
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    border: 2px solid var(--gray);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 1rem;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/wooden-cubes-473703_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*.header {
+    display: grid;
+    background-color: var(--white);
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    -webkit-border-bottom-left-radius: 75px;
+    -webkit-border-bottom-right-radius: 75px;
+    -moz-border-bottom-left-radius: 75px;
+    -moz-border-bottom-right-radius: 75px;
+    width: 100%;
+    z-index: -1;
+}*/
+
+
+/*@media (min-width:480px){}*/
