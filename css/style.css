@@ -1,12 +1,11 @@
 :root {
     --mainFont: 'Krub', sans-serif;
-    --white: #FFFFFF;
-    --primary: #FFC107;
+    --white: #ffffff;
+    --primary: #251414;
     --secondary: hsl(180, 38%, 73%);
     --gray: #626262;
     --dark: #212121;
     --orange: #F87217;
-    #626262
 }
 
 
@@ -34,14 +33,14 @@ img {
     display: grid;
     font-family: var(--mainFont);
     height: 100vh;
-    max-width: 1200px;
+    max-width: 1325px;
     margin: 0 auto;
     display: grid;
     /* rows / columns */
-    grid: 100px 300px auto 300px 400px/ repeat(5, 1fr);
-    grid-template-areas: "header header header header header" "nav nav nav nav nav" "text text text text main" "text text text text main" "footer footer footer footer footer";
+    grid: 100px auto auto auto auto auto 80px/ repeat(5, 1fr);
+    grid-template-areas: "header header header header header" "nav nav nav nav nav" "main main main main main" "main main main main main" "main main main main main" "main main main main main" "footer footer footer footer footer";
     /* on peut créer un span to the top and to the bottom avec ce code, ce qui était difficile à faire, avant */
-    /* grid-template-areas: "header header header sidebar" "main main main main" "footer footer footer sidebar" */
+    /* grid-template-areas: "header header header sidebar" "main main main main" "footer footer footer footer" */
     grid-gap: 0rem;
     width: 100%;
 }
@@ -50,22 +49,25 @@ img {
 /* grid-area */
 
 .main {
-    background-color: none;
     grid-area: main;
 }
 
 .footer {
-    color: var(--white);
-    font-size: 1rem;
+    align-items: center;
+    border-top: 1px solid var(--white);
+    display: grid;
     grid-area: footer;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    justify-items: center;
 }
 
 footer p {
-    display: grid;
     color: var(--white);
-    font-size: 2rem;
-    font-weight: bolder;
-    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 100;
     margin: 0;
 }
 
@@ -76,13 +78,6 @@ footer p {
 .header {
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: none;
-}
-
-.text {
-    color: var(--white);
-    grid-area: text;
-    align-self: center;
 }
 
 .main-nav {
@@ -111,7 +106,7 @@ footer p {
 }
 
 .main-nav ul li a {
-    color: var(--dark);
+    color: var(--white);
     font-family: var(--mainFont);
     font-size: 1.8rem;
     font-weight: 100;
@@ -120,18 +115,18 @@ footer p {
 }
 
 .main-nav a:hover {
-    border: 2px solid var(--gray);
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    border: 2px solid var(--white);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
     padding: 1rem;
 }
 
 .hero {
     height: 100vh;
-    background-image: url(../img/wooden-cubes-473703_640.jpg);
+    background-image: url(../img/woven-cloth-352481_640.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
