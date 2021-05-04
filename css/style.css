@@ -2,7 +2,7 @@
     --mainFont: 'Krub', sans-serif;
     --white: #ffffff;
     --primary: #251414;
-    --secondary: hsl(180, 38%, 73%);
+    --secondary: hsl(180, 44%, 63%);
     --gray: #626262;
     --dark: #212121;
     --orange: #F87217;
@@ -20,6 +20,13 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+
+/*html {
+    min-height: 100vh;
+    min-width: 100 vw;
+}
+*/
 
 h1 {
     margin: 0;
@@ -54,7 +61,6 @@ img {
 
 .footer {
     align-items: center;
-    border-top: 1px solid var(--white);
     display: grid;
     grid-area: footer;
     grid-column-start: 1;
@@ -66,9 +72,9 @@ img {
 
 footer p {
     color: var(--white);
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 0.9rem;
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -99,29 +105,54 @@ footer p {
 .main-nav ul {
     display: grid;
     grid-auto-flow: column;
+    justify-content: center;
+    margin-left: 4rem;
 }
 
 .main-nav ul li {
-    justify-self: center;
+    display: grid;
+    margin-right: 6rem;
 }
 
 .main-nav ul li a {
     color: var(--white);
     font-family: var(--mainFont);
-    font-size: 1.8rem;
-    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
     text-decoration: none;
     padding: 1rem;
 }
 
-.main-nav a:hover {
-    border: 2px solid var(--white);
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
+.main-nav a[aria-current="page"] {
+    border-bottom: 3px solid var(--orange);
+    margin: 0;
     padding: 1rem;
+}
+
+@media (max-width: 640px) {
+    .main-nav ul {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    .main-nav ul li {
+        justify-content: center;
+        margin-right: 0rem;
+    }
+    .main-nav a[aria-current="page"] {
+        border-bottom: 2px solid var(--orange);
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
+
+
+/* Il est important d'utiliser outline. Cela emêche le contenu de bouger. Ne jamais utliser border*/
+
+.main-nav a:hover,
+.main-nav a:focus {
+    outline: 2px solid var(--white)!important;
 }
 
 .hero {
@@ -133,18 +164,30 @@ footer p {
 }
 
 
-/*.header {
-    display: grid;
-    background-color: var(--white);
-    border-bottom-left-radius: 75px;
-    border-bottom-right-radius: 75px;
-    -webkit-border-bottom-left-radius: 75px;
-    -webkit-border-bottom-right-radius: 75px;
-    -moz-border-bottom-left-radius: 75px;
-    -moz-border-bottom-right-radius: 75px;
-    width: 100%;
-    z-index: -1;
+/* Certains break point que nous pouvons utiliser */
+
+
+/* @media (min-width: 640px){
+ 
+    ...
+     
+    }
+     
+    @media (min-width: 768px){
+     
+    ...
+     
+    }
+     
+    @media (min-width: 1024px){
+     
+    ...
+     
+    }
+     
+    @media (min-width: 1200px){
+     
+    ...
+     
+    }
 }*/
-
-
-/*@media (min-width:480px){}*/
