@@ -28,28 +28,25 @@
     <main class="container main-content">
         <h1 class="entry-title">Contact</h1>
 
-        <div class="entry">
-            <div class="containerForm">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <div class="container-form">
+            <form action="/action_page.php">
+                <label for="fname">Votre prénom <span aria-hidden="true" style="color: red;">*</span></label>
+                <input type="text" id="fname" name="prénom" required>
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="lname">Votre nom de famille <span aria-hidden="true" style="color: red;">*</span></label>
+                <input type="text" id="lname" name="nom de famille" required>
 
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                    <option value="australia">Australia</option>
+                <label for="country">Le nom de votre pays <span aria-hidden="true" style="color: red;">*</span></label>
+                <select id="country" name="pays">
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
                   </select>
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="subject">Le sujet <span aria-hidden="true" style="color: red;">*</span></label>
+                <textarea id="subject" name="sujet" style="height: 5rem" required></textarea>
 
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+                <input classe="bouton" type="submit" value="Envoyer le message">
+            </form>
         </div>
     </main>
 
